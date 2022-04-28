@@ -1,0 +1,103 @@
+p{color: black;size: 10rem;}
+
+.h11{text-align: center;font-size: small;}
+h1{align-items: center;text-align: center;font-size: smaller;}  
+.ps {color: blueviolet;background-color: aqua;}
+
+.container {border-color: aqua;color: brown;border-left: 10px; border-bottom: 100px;text-align: center;}
+
+.col-md-4{border-color: aquamarine;color: blue}
+.col-md-3{border-color: aquamarine;color: red}
+
+.card{
+    width: fit-content;
+    border-color: brown;
+    
+}
+
+.btn {background-color: red;
+    border-bottom: 10rem;
+    border-color: red;}
+
+.sep{width: 1rem;border-color: transparent;}
+
+.caja{box-sizing: content-box;border-color: aqua;border-width: 100px;}
+
+
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #353A40;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #9D9FA2;
+    text-align: right;
+    padding: 0px 0px;
+    text-decoration: none;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: #9D9FA2;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
+
+  .textonavbar{color: rgba(230, 12, 45, 0.98);size: 100px;}
+.col-sm-3{text-align: start;color:white;text-justify:auto ;}
+  .img{image-resolution: 480p;}
+
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+  }
+  
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

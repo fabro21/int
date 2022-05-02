@@ -16,21 +16,22 @@ p{color: black;size: 0.01rem;}
   flex-direction: row;
   justify-content: center;
   margin: 0rem;
-flex-wrap: wrap;}
+  flex-wrap: wrap;}
 
 .card{
     width: fit-content;
     border-radius: 5px;
     margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
 .btn {background-color: red;
     border-bottom: 10rem;
     border-color: red;}
 
-.sep{width: 1rem;border-color: transparent;}
 
-.caja{box-sizing: content-box;border-color: aqua;border-width: 100px;}
 
 
 /* The navigation bar */
@@ -119,7 +120,7 @@ flex-wrap: wrap;}
   .a {size: 100px;} 
 
 
-.footer{}
+
 
 .row{background-color: #1C3949;padding: 1.2rem;align-content: center;}  
 .text{color: white;font-size: 1rem;font-weight: lighter;}
@@ -128,3 +129,12 @@ flex-wrap: wrap;}
 .card-img-overlay{align-content: center;}
 
 
+.Formc 
+  {display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0rem;
+  flex-wrap: wrap;
+  width: 50rem;
+  
+  }
